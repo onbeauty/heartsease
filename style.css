@@ -1,0 +1,161 @@
+
+/* Heart's Ease — style.css
+   Palette: cream background, soft green, petal pink, lavender-grey (#ACB1CC)
+   Handwritten title uses 'Quentin' if provided; fallback to 'Great Vibes' (Google Font).
+*/
+
+:root{
+  --cream: #F6F4EF;
+  --green: #7F9B74; /* stem-inspired */
+  --pink:  #F6EDEE; /* petal blush */
+  --lavender: #ACB1CC;
+  --text: #222;
+  --muted: #6B6B6B;
+  --max-width: 720px;
+  --serif: 'Spectral', Georgia, 'Times New Roman', serif;
+  --heading-serif: 'Playfair Display', Georgia, serif;
+  --handwritten: 'Quentin', 'Great Vibes', 'Brush Script MT', cursive;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--cream);
+  color:var(--text);
+  font-family:var(--serif);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding:48px 20px;
+  display:flex;
+  justify-content:center;
+}
+
+.container{
+  width:100%;
+  max-width:var(--max-width);
+}
+
+/* Header */
+.site-header{
+  text-align:center;
+  margin-bottom:34px;
+}
+.site-title{
+  font-family:var(--handwritten);
+  font-size:56px;
+  line-height:1;
+  margin:0;
+  letter-spacing:0.6px;
+  color:var(--lavender);
+  text-shadow: 0 0 0 rgba(0,0,0,0.02);
+}
+.site-tagline{
+  margin-top:8px;
+  color:var(--muted);
+  font-size:14px;
+  letter-spacing:0.2px;
+}
+
+/* Post list */
+.post {
+  background: linear-gradient(180deg, rgba(255,255,255,0.35), rgba(255,255,255,0.25));
+  border-radius:8px;
+  padding:28px;
+  margin-bottom:28px;
+  box-shadow: 0 6px 18px rgba(35,31,32,0.04);
+  border-left: 6px solid rgba(172,177,204,0.18);
+}
+.post h2{
+  margin:0 0 8px 0;
+  font-family:var(--heading-serif);
+  font-size:26px;
+  color:#222;
+}
+.post .epigraph{
+  font-style:italic;
+  color:var(--muted);
+  margin-bottom:12px;
+  font-size:15px;
+}
+.post p.excerpt{
+  margin:0 0 14px 0;
+  color:#2d2d2d;
+}
+.post .meta{
+  font-size:13px;
+  color:var(--muted);
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.read-more{
+  display:inline-block;
+  margin-top:14px;
+  text-decoration:none;
+  border-bottom:1px solid rgba(127,155,116,0.35);
+  padding-bottom:2px;
+  color:var(--green);
+  font-weight:600;
+}
+
+/* Single post layout (post.html) */
+.post-article{
+  padding:20px 0 60px 0;
+}
+.post-article h1{
+  font-family:var(--heading-serif);
+  font-size:34px;
+  margin-bottom:6px;
+}
+.post-article .post-epigraph{
+  color:var(--muted);
+  font-style:italic;
+  margin-bottom:20px;
+}
+.post-article img.feature{
+  width:100%;
+  border-radius:6px;
+  margin:18px 0;
+  display:block;
+}
+.post-article .content{
+  font-size:18px;
+  color: #222;
+  margin-top:8px;
+}
+
+/* About page */
+.about-card{
+  padding:26px;
+  border-radius:8px;
+  background:rgba(255,255,255,0.4);
+  box-shadow: 0 6px 18px rgba(35,31,32,0.04);
+  border-left:6px solid rgba(172,177,204,0.18);
+}
+
+/* Footer */
+.site-footer{
+  margin-top:40px;
+  padding-top:20px;
+  border-top:1px solid rgba(0,0,0,0.04);
+  color:var(--muted);
+  font-size:13px;
+  text-align:center;
+}
+
+/* small ornaments */
+.ornament{
+  display:block;
+  margin:18px auto;
+  width:86px;
+  opacity:0.9;
+}
+
+/* Responsive */
+@media (max-width:640px){
+  .site-title{font-size:44px}
+  body{padding:28px 16px}
+  .post{padding:20px}
+}
