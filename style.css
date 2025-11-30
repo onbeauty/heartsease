@@ -44,7 +44,8 @@ body{
 }
 .site-title{
   font-family:var(--handwritten);
-  font-size:56px;
+  font-size:64px;
+   transform: rotate(-10deg);
   line-height:1;
   margin:0;
   letter-spacing:0.6px;
@@ -159,3 +160,4 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
