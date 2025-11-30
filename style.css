@@ -46,6 +46,7 @@ body{
   font-family:var(--handwritten);
   font-size:64px;
    transform: rotate(-10deg);
+   display: inline-block;
   line-height:1;
   margin:0;
   letter-spacing:0.6px;
@@ -160,4 +161,5 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
