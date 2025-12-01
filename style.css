@@ -43,7 +43,7 @@ body{
   margin-bottom:34px;
 }
 .site-title{
-  font-family:var(--handwritten);
+  font-family: 'Quentin', serif;
   font-size:100px;
    transform: rotate(-10deg);
    display: inline-block;
@@ -162,6 +162,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
