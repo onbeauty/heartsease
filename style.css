@@ -1,15 +1,14 @@
+@font-face {
+    font-family: 'Quentin';
+    src: url('Quentin 2.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Heart's Ease — style.css
    Palette: cream background, soft green, petal pink, lavender-grey (#ACB1CC)
    Handwritten title uses 'Quentin' if provided; fallback to 'Great Vibes' (Google Font).
 */
-
-@font-face {
-  font-family: 'Quentin';
-  src: url('Quentin%202.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 :root{
   --cream: #F6F4EF;
@@ -169,6 +168,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
