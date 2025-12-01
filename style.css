@@ -44,11 +44,11 @@ body{
 }
 .site-title{
   font-family:var(--handwritten);
-  font-size:64px;
+  font-size:100px;
    transform: rotate(-10deg);
    display: inline-block;
   line-height:1;
-  margin:0;
+  margin:40px;
   letter-spacing:0.6px;
   color:var(--lavender);
   text-shadow: 0 0 0 rgba(0,0,0,0.02);
@@ -161,6 +161,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
