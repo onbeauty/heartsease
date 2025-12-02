@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Quentin';
-    src: url('../fonts/Quentin%202.otf') format('opentype');
+    src: url('fonts/Quentin%202.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -168,6 +168,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
