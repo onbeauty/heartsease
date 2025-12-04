@@ -16,7 +16,7 @@ h1 {
   font-family: 'Quentin', serif;
   font-size: 4rem;
   transform: rotate(-10deg);
-  color: black;
+  color: var(--lavender);
   margin-top: 40px;
 }
 
@@ -178,6 +178,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
