@@ -5,10 +5,19 @@
 */
 
 @font-face {
-    font-family: 'Quentin';
-    src: url('Quentin%202.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Quentin';
+  src: url('Quentin.woff2') format('woff2'),
+       url('Quentin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Quentin', serif;
+  font-size: 4rem;
+  transform: rotate(-10deg);
+  color: black;
+  margin-top: 40px; /* move text lower */
 }
 
 :root{
@@ -169,6 +178,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
