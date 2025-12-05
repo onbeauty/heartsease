@@ -68,7 +68,7 @@ body{
   margin:0;
   letter-spacing:0.6px;
   color: var(--lavender); 
-  text-shadow: 0 0 0 rgba(0,0,0,0.02);
+  text-shadow: none;
 }
 .site-tagline{
   margin-top:8px;
@@ -178,6 +178,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
