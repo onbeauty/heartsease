@@ -6,10 +6,17 @@
 
 @font-face {
   font-family: 'Quentin';
-  src: url('Quentin.woff2') format('woff2'),
-       url('Quentin.woff') format('woff');
+  src: url('/heartsease/Quentin.woff2') format('woff2'),
+       url('/heartsease/Quentin.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+.site-title {
+  font-family: 'Quentin', serif;
+  font-size: 100px;
+  transform: rotate(-10deg);
+  /* rest of your style… */
 }
 
 h1 {
@@ -178,6 +185,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
