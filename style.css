@@ -12,13 +12,6 @@
   font-style: normal;
 }
 
-.site-title {
-  font-family: 'Quentin', serif;
-  font-size: 100px;
-  transform: rotate(-10deg);
-  /* rest of your style… */
-}
-
 h1 {
   font-family: 'Quentin', serif;
   font-size: 4rem;
@@ -185,6 +178,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
