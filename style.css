@@ -67,7 +67,7 @@ body{
   line-height:1;
   margin:0;
   letter-spacing: 0.5px;
-  color: 3A332E; 
+  color: 3a302e; 
   text-shadow: none;
 }
 .site-tagline{
@@ -178,6 +178,7 @@ body{
   body{padding:28px 16px}
   .post{padding:20px}
 }
+
 
 
 
